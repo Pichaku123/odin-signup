@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+@font-face {
+    font-family: 'Norse';
+    src: url('norse-bold/Norse-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    display: flex;
+}
+
+.left{
+    background-image: url(https://images.unsplash.com/photo-1750466594497-66529efb8a14?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+}
+
+#logo{
+    height: 20%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 30%;
+    background-color: rgb(186, 255, 133, 50%);
+    
+}
+
+#logo > img{
+    height: 70%;
+}
+
+#logo > span{
+    font-family: 'Norse';
+    font-size: 5em;
+    color: white;
+}
+
+#credit{
+    position: absolute;
+    top: 95%;
+    background-color: lightblue;
+    color: black;
+    padding: 0 20px;
+}
+
+#credit > a{
+    color: navy;
+}
+
+#credit > a:visited{
+    color: violet;
+}
+
+.right{
+    background-color: #f0f0f0;
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#intro{
+    padding: 10% 20% 5% 5%;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#submit{
+    flex:2;
+}
+
+#form{
+    height: auto;
+    padding-left: 5%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: white;
+}
+
+#form > p{
+    font-size: 30px;
+}
+
+.form-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.formrow{
+    width: 30%;
+    margin: 0.5em;
+}
+
+.formrow > input{
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    height: 3em;
+}
+
+input:focus{
+    outline: none;
+    border-color: blue;
+}
+
+input:invalid {
+    border-color: red;
+    outline: none;
+}
+
+#submit{
+    padding-left: 5%;
+    padding-top: 1em;
+}
+
+button{
+    padding: 1.5em 3em;
+    border-radius: 0.5em;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+button:active{
+    background-color: darkgray;
+}
+
+#submit > p{
+    margin-top: 1em;
+    font-size: 20px;
+}
+
