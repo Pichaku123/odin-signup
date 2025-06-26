@@ -22,8 +22,8 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 30vw;
-    height: 100vh;
+    width: 20vw;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -32,19 +32,19 @@ body{
 }
 
 #logo{
-    height: 20%;
+    height: 15%;
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 30%;
+    top: 35%;
     background-color: rgb(186, 255, 133, 50%);
     
 }
 
 #logo > img{
-    height: 70%;
+    height: 50%;
 }
 
 #logo > span{
@@ -55,10 +55,10 @@ body{
 
 #credit{
     position: absolute;
-    top: 95%;
+    bottom: 5%;
     background-color: lightblue;
     color: black;
-    padding: 0 20px;
+    padding: 0 15px;
 }
 
 #credit > a{
@@ -71,15 +71,15 @@ body{
 
 .right{
     background-color: #f0f0f0;
-    width: 70vw;
-    height: 100vh;
+    width: 80vw;
+    height: 80vh;
     display: flex;
     flex-direction: column;
 }
 
 #intro{
-    padding: 10% 20% 5% 5%;
-    font-size: 30px;
+    padding: 5% 30% 0 5%;
+    font-size: 20px;
     font-weight: 800;
 }
 
@@ -96,17 +96,17 @@ body{
 }
 
 #form > p{
-    font-size: 30px;
+    font-size: 1.5em;
 }
 
 .form-wrapper{
     display: flex;
     flex-wrap: wrap;
-    gap: 5%;
+    gap: 20%;
 }
 
 .formrow{
-    width: 30%;
+    width: 20%;
     margin: 0.5em;
 }
 
@@ -114,7 +114,7 @@ body{
     width: 100%;
     border-radius: 5px;
     border: 2px solid #ccc;
-    height: 3em;
+    height: 2em;
 }
 
 input:focus{
@@ -133,7 +133,7 @@ input:invalid {
 }
 
 button{
-    padding: 1.5em 3em;
+    padding: 1em 2em;
     border-radius: 0.5em;
     text-align: center;
     font-size: 15px;
@@ -146,6 +146,6 @@ button:active{
 
 #submit > p{
     margin-top: 1em;
-    font-size: 20px;
+    font-size: 1em;
 }
 
